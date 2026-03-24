@@ -1,11 +1,11 @@
-# 📈 AI Stock Prediction System
+# AI Stock Prediction System
 
 A production-ready **AI-powered stock prediction and trading system** built using deep learning and quantitative finance techniques.
 This project focuses on predicting stock movements using time-series data and generating actionable trading signals.
 
 ---
 
-## Features
+# Features
 
 * **Multi-stock prediction pipeline**
 * **Sequence modeling (LSTM / extensible to Transformers)**
@@ -18,7 +18,7 @@ This project focuses on predicting stock movements using time-series data and ge
 
 ---
 
-## Project Architecture
+# Project Architecture
 
 ```
 Data → Feature Engineering → Scaling → Sequence Builder → Model → Prediction → Signal Engine
