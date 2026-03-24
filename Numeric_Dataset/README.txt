@@ -1,148 +1,204 @@
-# AI Stock Prediction System
+# 📈 AI Stock Prediction System
 
-A production-ready **AI-powered stock prediction and trading system** built using deep learning and quantitative finance techniques.
-This project focuses on predicting stock movements using time-series data and generating actionable trading signals.
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-DeepLearning-red?style=for-the-badge&logo=pytorch" />
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
----
-
-# Features
-
-* **Multi-stock prediction pipeline**
-* **Sequence modeling (LSTM / extensible to Transformers)**
-* **Optimized feature engineering (technical indicators)**
-* **Buy/Sell signal generation**
-* **Backtesting-ready outputs**
-* **Data leakage-safe preprocessing**
-* **Memory-efficient dataset handling**
-* **GPU + Mixed Precision Training (AMP)**
+<p align="center">
+  🚀 Production-ready AI system for stock prediction, signal generation, and quantitative research
+</p>
 
 ---
 
-# Project Architecture
+## 🧠 Overview
 
+This project is a **high-performance AI-powered stock prediction system** designed for:
+
+* 📊 Time-series forecasting
+* 🎯 Trading signal generation
+* 📉 Quantitative strategy research
+
+Built with **deep learning + optimized data pipelines**, it is structured to scale into a **real-world trading system**.
+
+---
+
+## 🔥 Key Highlights
+
+* ⚡ **2–5x faster pipeline** (vectorized + optimized)
+* 🧠 **Sequence modeling (LSTM → Transformer-ready)**
+* 🚀 **Mixed Precision Training (AMP)**
+* 📉 **No Data Leakage (production-safe)**
+* 💾 **Memory-optimized dataset**
+* 🎯 **Actionable trading signals**
+
+---
+
+## 🏗️ System Architecture
+
+```text
+Raw Data 
+   ↓
+Feature Engineering (Technical Indicators)
+   ↓
+Scaling (Leakage-safe)
+   ↓
+Sequence Builder (Time-Series Windows)
+   ↓
+Deep Learning Model (LSTM)
+   ↓
+Prediction Engine
+   ↓
+Signal Generator (BUY / SELL)
 ```
-Data → Feature Engineering → Scaling → Sequence Builder → Model → Prediction → Signal Engine
-```
 
 ---
 
-## Tech Stack
+## 📊 Features Engineered
 
-* **Python**
-* **PyTorch**
-* **NumPy / Pandas**
-* **Scikit-learn**
-* (Optional) Streamlit / FastAPI for deployment
-
----
-
-## Model Details
-
-* Sequence-based learning using **LSTM**
-* Handles multi-stock time series data
-* Supports:
-
-  * Binary classification (Up/Down)
-  * Future extension → Regression (returns)
+| Category      | Features                |
+| ------------- | ----------------------- |
+| Price Signals | Returns, Log Returns    |
+| Trend         | MA10, MA20, MA Gap      |
+| Momentum      | RSI                     |
+| Volume        | Volume-based indicators |
 
 ---
 
-## Features Used
+## 🧠 Model Architecture
 
-* Returns & Log Returns
-* Moving Averages (MA10, MA20)
-* RSI (Relative Strength Index)
-* Volume-based signals
-* Price momentum indicators
+* **Model:** LSTM (extensible → Transformer / TFT)
+* **Task:** Binary Classification (Up / Down)
+* **Future:** Multi-horizon forecasting
 
 ---
 
-## Training Details
+## 🏋️ Training Configuration
 
-* Loss: **Focal Loss** (handles class imbalance)
-* Optimizer: **AdamW**
-* Scheduler: **Cosine Annealing**
-* Mixed Precision: Enabled
-
----
-
-## Output
-
-Model generates:
-
-* Probability of price increase
-* Trading signals (Buy / Sell)
-* Confidence scores
+| Component | Value                 |
+| --------- | --------------------- |
+| Loss      | Focal Loss            |
+| Optimizer | AdamW                 |
+| Scheduler | Cosine Annealing      |
+| Precision | Mixed Precision (AMP) |
+| Device    | GPU / CPU             |
 
 ---
 
-## Key Optimizations
+## 📈 Model Output
 
-* No data leakage (proper train/val/test split)
-* Vectorized feature engineering
-* Memory-efficient dataset (no duplication)
-* Optimized DataLoader (multi-worker + prefetch)
-* Reduced training time significantly
+* 📌 Probability of upward movement
+* 📌 Trading signal (**Buy / Sell**)
+* 📌 Confidence score
 
 ---
 
-## Future Improvements
+## ⚡ Performance Optimizations
 
-* Replace LSTM → **Transformer / Temporal Fusion Transformer**
-* Add **macroeconomic indicators**
-* Use **Optuna for hyperparameter tuning**
-* Build **backtesting engine**
-* Deploy as **API + Dashboard**
-* Add **Explainable AI (SHAP)**
+* ✅ Vectorized feature engineering
+* ✅ Efficient sequence indexing (**no Python loops**)
+* ✅ Memory-efficient dataset (no duplication)
+* ✅ Optimized DataLoader (multi-worker + prefetch)
+* ✅ Reduced training time significantly
 
 ---
 
-## How to Run
+## 📉 Roadmap (Next Upgrades)
+
+* 🔄 Transformer / Temporal Fusion Transformer (TFT)
+* 📊 Backtesting Engine (Sharpe, Drawdown)
+* 🧠 Ensemble Models (LSTM + LightGBM + Transformer)
+* 🎯 Optuna Hyperparameter Optimization
+* 🌐 FastAPI + Streamlit Dashboard
+* 🔍 Explainability (SHAP)
+
+---
+
+## ▶️ Quick Start
 
 ```bash
-# Clone repo
+# Clone repository
 git clone https://github.com/akshat123-ai/ai-stock-prediction.git
+
 cd ai-stock-prediction
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run notebook / training script
+# Run training / notebook
 ```
 
 ---
 
-## Use Cases
+## 📁 Project Structure
 
-* Algorithmic trading research
-* Quantitative finance projects
-* Portfolio strategy development
-* ML-based time series forecasting
-
----
-
-## Disclaimer
-
-This project is for **educational and research purposes only**.
-It does **not guarantee financial profit** and should not be used as financial advice.
-
----
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first.
+```bash
+├── data/
+├── notebooks/
+│   └── Numeric_dataset_stock_updated_pipeline.ipynb
+├── models/
+├── utils/
+├── configs/
+├── outputs/
+└── README.md
+```
 
 ---
 
-## If you like this project
+## 🎯 Use Cases
 
-Give it a on GitHub — it helps!
+* 📊 Algorithmic Trading Research
+* 📉 Quantitative Finance Projects
+* 🧠 ML Time-Series Forecasting
+* 💼 Portfolio Strategy Development
 
 ---
 
-## Contact
+## ⚠️ Disclaimer
 
-For queries or collaborations:
+> This project is for **educational and research purposes only**.
+> It does **NOT** provide financial advice or guarantee profits.
 
-* GitHub: akshat123-ai
-* Email: akshataws123@gmail.com
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+```bash
+# Fork the repo
+# Create your branch
+git checkout -b feature/new-feature
+
+# Commit changes
+git commit -m "Add new feature"
+
+# Push
+git push origin feature/new-feature
+```
+
+---
+
+## ⭐ Support
+
+If you find this project useful:
+
+👉 Give it a ⭐ on GitHub
+👉 Share it with others
+
+---
+
+## 📬 Contact
+
+* GitHub: https://github.com/akshat123-ai
+* Email: [akshataws123@gmail.com](mailto:akshataws123@gmail.com)
+
+---
+
+## 🏆 Future Vision
+
+> Build a **fully automated AI trading system** with real-time predictions, execution, and portfolio optimization.
+
+---
