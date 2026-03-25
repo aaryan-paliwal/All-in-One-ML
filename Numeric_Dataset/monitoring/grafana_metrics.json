@@ -1,0 +1,53 @@
+{
+  "dashboard": "stock_pipeline_monitoring",
+  "metrics": {
+    "prediction_drift_psi": 0.004688126172834185,
+    "mean_feature_psi": 0.23120856421044872,
+    "features_above_0_2_psi": 31,
+    "validation_accuracy": 0.5048500089814981,
+    "test_accuracy": 0.5159026297085999,
+    "accuracy_drop": -0.01105262072710178
+  },
+  "top_drift_features": [
+    {
+      "feature": "atr_14",
+      "psi": 0.9424191696461987
+    },
+    {
+      "feature": "volatility_20",
+      "psi": 0.9285801285643809
+    },
+    {
+      "feature": "volatility_10",
+      "psi": 0.8164509277364769
+    },
+    {
+      "feature": "macd_signal",
+      "psi": 0.73236027825257
+    },
+    {
+      "feature": "macd",
+      "psi": 0.7291383235141897
+    },
+    {
+      "feature": "macd_hist",
+      "psi": 0.6248732966385133
+    },
+    {
+      "feature": "bb_width",
+      "psi": 0.6218848230522428
+    },
+    {
+      "feature": "price_diff",
+      "psi": 0.5813588727417281
+    },
+    {
+      "feature": "hl_range",
+      "psi": 0.556201863402737
+    },
+    {
+      "feature": "intraday_return",
+      "psi": 0.3544577804535984
+    }
+  ]
+}

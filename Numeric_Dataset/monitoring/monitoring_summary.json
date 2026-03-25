@@ -1,0 +1,8 @@
+{
+  "prediction_drift_psi": 0.004688126172834185,
+  "mean_feature_psi": 0.23120856421044872,
+  "features_above_0_2_psi": 31,
+  "validation_accuracy": 0.5048500089814981,
+  "test_accuracy": 0.5159026297085999,
+  "accuracy_drop": -0.01105262072710178
+}
