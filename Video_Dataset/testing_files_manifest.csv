@@ -1,0 +1,17 @@
+file,purpose
+/kaggle/working/crowd_anomaly_deep_project/best_hybrid_efficientnet_gru.pth,Trained PyTorch model weights for inference/testing
+/kaggle/working/crowd_anomaly_deep_project/model_config.json,Model and preprocessing configuration
+/kaggle/working/crowd_anomaly_deep_project/class_map.json,Label mapping for outputs
+/kaggle/working/crowd_anomaly_deep_project/split_manifest.csv,Video-level train/val/test split manifest
+/kaggle/working/crowd_anomaly_deep_project/sequence_manifest.csv,Sequence-level testing/training manifest
+/kaggle/working/crowd_anomaly_deep_project/metrics_summary.csv,Final evaluation metrics including accuracy
+/kaggle/working/crowd_anomaly_deep_project/raw_validation_predictions.csv,Raw validation predictions
+/kaggle/working/crowd_anomaly_deep_project/raw_test_predictions.csv,Raw test predictions for project output
+/kaggle/working/crowd_anomaly_deep_project/clip_level_test_predictions.csv,Clip-level aggregated predictions
+/kaggle/working/crowd_anomaly_deep_project/training_history.csv,Epoch-wise training logs
+/kaggle/working/crowd_anomaly_deep_project/feature_correlation.csv,Raw correlation matrix for handcrafted features
+/kaggle/working/crowd_anomaly_deep_project/scene_error_summary.csv,Scene-wise raw error statistics
+/kaggle/working/crowd_anomaly_deep_project/confusion_matrix.csv,Raw confusion matrix values
+/kaggle/working/crowd_anomaly_deep_project/training_curves.png,Training graphs
+/kaggle/working/crowd_anomaly_deep_project/evaluation_panels.png,Evaluation graphs and heatmaps
+/kaggle/working/crowd_anomaly_deep_project/feature_heatmap_and_rankings.png,Feature heatmap and rankings

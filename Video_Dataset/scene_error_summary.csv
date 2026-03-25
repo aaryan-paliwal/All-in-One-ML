@@ -1,0 +1,4 @@
+scene,y_true,accuracy,avg_score,count
+2_Las_Vegas,0,0.9625,0.019148344815766903,80
+2_Las_Vegas,1,1.0,0.8959153899922967,160
+4_Italy,1,1.0,0.9898730672895908,80
