@@ -1,0 +1,153 @@
+[
+  {
+    "model": "Ridge",
+    "alpha": 0.1,
+    "val_rmse": 0.02620526996246326
+  },
+  {
+    "model": "Ridge",
+    "alpha": 1.0,
+    "val_rmse": 0.026205206178573828
+  },
+  {
+    "model": "Ridge",
+    "alpha": 5.0,
+    "val_rmse": 0.02620493306488299
+  },
+  {
+    "model": "Ridge",
+    "alpha": 10.0,
+    "val_rmse": 0.026204610164361868
+  },
+  {
+    "model": "Ridge",
+    "alpha": 50.0,
+    "val_rmse": 0.02620240262225636
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.0001,
+    "l1_ratio": 0.1,
+    "val_rmse": 0.026190832394792952
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.0001,
+    "l1_ratio": 0.5,
+    "val_rmse": 0.02616779346525441
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.0001,
+    "l1_ratio": 0.9,
+    "val_rmse": 0.026154274112204546
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.0005,
+    "l1_ratio": 0.1,
+    "val_rmse": 0.02616751705681622
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.0005,
+    "l1_ratio": 0.5,
+    "val_rmse": 0.026153795501816846
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.0005,
+    "l1_ratio": 0.9,
+    "val_rmse": 0.026176018699755856
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.001,
+    "l1_ratio": 0.1,
+    "val_rmse": 0.026151996696877816
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.001,
+    "l1_ratio": 0.5,
+    "val_rmse": 0.026176018699755856
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.001,
+    "l1_ratio": 0.9,
+    "val_rmse": 0.026176018699755856
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.005,
+    "l1_ratio": 0.1,
+    "val_rmse": 0.026176018699755856
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.005,
+    "l1_ratio": 0.5,
+    "val_rmse": 0.026176018699755856
+  },
+  {
+    "model": "ElasticNet",
+    "alpha": 0.005,
+    "l1_ratio": 0.9,
+    "val_rmse": 0.026176018699755856
+  },
+  {
+    "model": "Huber",
+    "alpha": 1e-05,
+    "epsilon": 1.2,
+    "val_rmse": 0.026194348760943988
+  },
+  {
+    "model": "Huber",
+    "alpha": 1e-05,
+    "epsilon": 1.35,
+    "val_rmse": 0.026194744406109815
+  },
+  {
+    "model": "Huber",
+    "alpha": 1e-05,
+    "epsilon": 1.5,
+    "val_rmse": 0.026195996869315504
+  },
+  {
+    "model": "Huber",
+    "alpha": 0.0001,
+    "epsilon": 1.2,
+    "val_rmse": 0.026194441541383087
+  },
+  {
+    "model": "Huber",
+    "alpha": 0.0001,
+    "epsilon": 1.35,
+    "val_rmse": 0.026194608393417407
+  },
+  {
+    "model": "Huber",
+    "alpha": 0.0001,
+    "epsilon": 1.5,
+    "val_rmse": 0.02619612676374411
+  },
+  {
+    "model": "Huber",
+    "alpha": 0.001,
+    "epsilon": 1.2,
+    "val_rmse": 0.026194337355764517
+  },
+  {
+    "model": "Huber",
+    "alpha": 0.001,
+    "epsilon": 1.35,
+    "val_rmse": 0.02619475945237168
+  },
+  {
+    "model": "Huber",
+    "alpha": 0.001,
+    "epsilon": 1.5,
+    "val_rmse": 0.026196042374322177
+  }
+]
