@@ -1,0 +1,5 @@
+video_id,scene,source_path,y_true,y_score,y_pred,n_sequences
+2_Las_Vegas/Test_1,2_Las_Vegas,/kaggle/input/datasets/angelchi56/abnormal-highdensity-crowds/Abnormal High-density Crowds/2_Las_Vegas/Test_1,1,0.8194550696760416,1,80
+2_Las_Vegas/Test_4/Footage,2_Las_Vegas,/kaggle/input/datasets/angelchi56/abnormal-highdensity-crowds/Abnormal High-density Crowds/2_Las_Vegas/Test_4/Footage.mp4,1,0.972375875711441,1,80
+2_Las_Vegas/Train,2_Las_Vegas,/kaggle/input/datasets/angelchi56/abnormal-highdensity-crowds/Abnormal High-density Crowds/2_Las_Vegas/Train,0,0.019148292573663638,1,80
+4_Italy/View_2/Test,4_Italy,/kaggle/input/datasets/angelchi56/abnormal-highdensity-crowds/Abnormal High-density Crowds/4_Italy/View_2/Test,1,0.9898730881512166,1,80
