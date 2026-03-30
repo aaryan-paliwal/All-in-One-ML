@@ -1,0 +1,89 @@
+{
+  "best_model": "MLPClassifier",
+  "long_only": {
+    "sharpe_ratio": 0.6276927876694948,
+    "sortino_ratio": 0.887942058074485,
+    "calmar_ratio": 0.33462141083732116,
+    "cagr": 0.06252097551820124,
+    "max_drawdown": -0.2001960559365286,
+    "cvar_5pct": -0.015395918371753664,
+    "omega_ratio": 1.1129447381782513,
+    "profit_factor": 1.1129447379148205,
+    "win_rate": 0.5270194986072423,
+    "annual_volatility": 0.10672398722403134,
+    "avg_daily_return": 0.00026583288498480107,
+    "cumulative_return": 0.5402900799533472
+  },
+  "long_short": {
+    "sharpe_ratio": -0.03763561135737416,
+    "sortino_ratio": -0.05132435026627623,
+    "calmar_ratio": -0.014831072526874146,
+    "cagr": -0.012046272681294878,
+    "max_drawdown": -0.2987612238660891,
+    "cvar_5pct": -0.0167935315709343,
+    "omega_ratio": 0.9924869175715754,
+    "profit_factor": 0.9924869173353197,
+    "win_rate": 0.5142061281337047,
+    "annual_volatility": 0.1177328768406398,
+    "avg_daily_return": -1.758313251669335e-05,
+    "cumulative_return": -0.0827055894594394
+  },
+  "signal": {
+    "sharpe_ratio": -0.31090645478469053,
+    "sortino_ratio": -0.13966085696007688,
+    "calmar_ratio": -0.07939821950355008,
+    "cagr": -0.00542626098944321,
+    "max_drawdown": -0.06669892685929046,
+    "cvar_5pct": -0.002733833175746311,
+    "omega_ratio": 0.8504104639264103,
+    "profit_factor": 0.8504104605540321,
+    "win_rate": 0.06573816155988858,
+    "annual_volatility": 0.017033326577294356,
+    "avg_daily_return": -2.1014984582632525e-05,
+    "cumulative_return": -0.038015162813772485
+  },
+  "regime_conditional": {
+    "Mid-Vol (Neutral)": {
+      "sharpe_ratio": 1.434176651857899,
+      "sortino_ratio": 2.009325447369943,
+      "calmar_ratio": 0.7594870683457434,
+      "cagr": 0.22953134372816342,
+      "max_drawdown": -0.18597841777462762,
+      "cvar_5pct": -0.014133309125813199,
+      "omega_ratio": 1.2747503401364007,
+      "profit_factor": 1.27475033896406,
+      "win_rate": 0.5422138836772983,
+      "annual_volatility": 0.09848729659689474,
+      "avg_daily_return": 0.0005605087462330115,
+      "cumulative_return": 0.548126289121238
+    },
+    "Low-Vol (Bull)": {
+      "sharpe_ratio": 0.11915347477502532,
+      "sortino_ratio": 0.16942478147998336,
+      "calmar_ratio": 0.06456165488505977,
+      "cagr": 0.1479484618725242,
+      "max_drawdown": -0.19177451978059384,
+      "cvar_5pct": -0.014881124330335973,
+      "omega_ratio": 1.0209247099271368,
+      "profit_factor": 1.0209247093809073,
+      "win_rate": 0.5100502512562815,
+      "annual_volatility": 0.10391034385072569,
+      "avg_daily_return": 4.9132065184065166e-05,
+      "cumulative_return": 0.5462462592913089
+    },
+    "High-Vol (Bear)": {
+      "sharpe_ratio": 0.6290932254838918,
+      "sortino_ratio": 0.9051877709211785,
+      "calmar_ratio": 0.4354597460318626,
+      "cagr": 0.17554165611078765,
+      "max_drawdown": -0.1730007944199644,
+      "cvar_5pct": -0.017046924952242293,
+      "omega_ratio": 1.1098298240792945,
+      "profit_factor": 1.1098298232043204,
+      "win_rate": 0.5386266094420601,
+      "annual_volatility": 0.1197515239373239,
+      "avg_daily_return": 0.00029894794617812666,
+      "cumulative_return": 0.348604481562909
+    }
+  }
+}
