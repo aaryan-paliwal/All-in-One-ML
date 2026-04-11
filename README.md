@@ -26,11 +26,7 @@ Total models compared: 15+
 
 Modalities:
 
-Natural Language Processing
-Computer Vision
-Audio Signal Processing
-Video Pattern Analysis
-Time-Series Forecasting
+Natural Language Processing | Computer Vision | Audio Signal Processing | Video Pattern Analysis | Time-Series Forecasting
 
 ---
 
